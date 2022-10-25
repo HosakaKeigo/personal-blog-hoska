@@ -2,20 +2,14 @@ import { Member } from "@src/types";
 
 export const members: Member[] = [
   {
-    id: "catnose",
-    name: "CatNose",
-    role: "CTO",
-    bio:
-      "デザインが好きなプログラマー。開発者向けの情報共有プラットフォームzenn.devを開発しています。",
-    avatarSrc: "/avatars/catnose.jpg",
-    sources: [
-      "https://zenn.dev/catnose99/feed",
-      "https://catnose.medium.com/feed",
-    ],
-    includeUrlRegex: "medium.com|zenn.dev",
-    twitterUsername: "catnose99",
-    githubUsername: "catnose99",
-    websiteUrl: "https://catnose99.com",
+    id: "ptnyan",
+    name: "ピティにゃん",
+    role: "事務局員",
+    bio: "さいきん、仕事がふえてきたにゃ...",
+    avatarSrc: "/avatars/ptnyan.png",
+    sources: ["https://www.piano.or.jp/atom.xml"],
+    twitterUsername: "ptna_web",
+    websiteUrl: "https://corporate.piano.or.jp/ptnyan/index.html",
   },
   {
     id: "john_doe",
